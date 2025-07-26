@@ -1,4 +1,161 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+.footer ul{
+	display: flex;
+	background: #E8FEC5;
+	justify-content: center;
+	align-items: center;
+	padding: 24px 0px;
+	margin: 48px 0px;
+}
+.footer .text{
+	font-size: 24px;
+	font-weight: 700;
+	color: #212529;
+	margin-right: 16px;
+	line-height: 1.2;
+}
+.footer a{
+	background-color: #212529;
+	color: white;
+	padding: 12px 24px;
+	border-radius: 5px;
+	font-weight: 500;
+}
+.end{
+	max-width: 1296px ;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding-bottom: 24px;
+	border-bottom: 1px solid #DEE2E6;
+}
+.end-list{
+	display: flex;
+}
+.end-list a{
+	color:#212529 ;
+	font-weight: 500;
+}
+.end-list-lift{
+	margin-right: 40px;
+}
+.last{
+	text-align: center;
+	font-size: 14px;
+	color: #6C757D;
+	padding-top: 24px;
+	padding-bottom: 48px;
+	
+}
+@media (max-width: 1296px){
+	.joint-name{
+     background-size:cover;
+    }
+    .b-0-12{
+		padding: 0px  12px;
+	}
+	.hide{
+		display: none;
+	}
+	.new-item li{
+		width: 48%;
+	}
+	.banner{
+		background-size: 100% 100%;
+	}
+}
+@media (max-width: 768px) {
+	 
+	.column-gap-12{
+        column-gap: 12px;
+    }
+	.img-50{
+		width: 50%;
+	}
+	.header{
+		padding-top:24px;
+		padding-bottom: 24px;
+	}
+	
+	.list a{
+		color: #212529;
+		width: 100%;
+		display: block;
+		background-color: #F5FEE7;
+		padding: 16px 0px;
+	}
+	.list li{
+		width: 50%;
+		text-align: center;
+		font-weight: 500;
+	}
+	.list .s-g{
+		background-color: #E8FEC5;
+	}
+	.first-hide{
+		display: block;
+	}
+	.main-text{
+    margin-left:12px;
+    }
+	.hot-item{
+		margin-bottom: 64px;
+	}
+	.hot-item ul{
+		overflow-x: auto;
+	}
+	.hot-item li{
+		flex:  0 0 90%;
+	}
+	.joint-name{
+		padding: 100px 0px;
+		margin-bottom: 48px;
+	}
+	.big-title{
+		flex-direction: column;
+	}
+	.sparkle{
+	width: 20%;
+	right:0%;
+	bottom:0;
+    }
+    .star{
+	width:20%;
+	left: -10%;
+	top: -10%;
+    }
+	.series ul{
+		row-gap: 12px;
+	}
+	.series li{
+		width: 48.5%;
+	}
+	.series .row{
+		flex-wrap: wrap;
+	}
+	.dress-code img {
+	width: 100%;
+    min-width: auto;
+    }
+    .d-md-contents {
+      display: contents;
+    }
+    .column-md-gap-16 {
+    column-gap: 16px;
+    }
+    .overflow-md-auto {
+    overflow-x: auto;
+    }
+	.end{
+		flex-direction: column;
+	}
+	.end img{
+		margin-bottom: 24px;
+	}
+	.end-list{
+		flex-direction: column;
+		padding-left: 12px;
+	}
+	.end-list li{
+		margin-bottom: 24px;
+	}
 }
