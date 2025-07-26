@@ -57,7 +57,8 @@ a{
 	display: none;
 }
 .banner {
-  background-image: url("@/assets/images/3-4/banner.png");
+	background-image: url('/htmlweek4/assets/images/3-4/banner.png');
+//   background-image: url("../images/3-4/banner.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -112,7 +113,7 @@ a{
 	padding: 8px;
 }
 .joint-name{
-  background-image: url("@/assets/images/3-4/banner-co-branded.png");
+  background-image: url("../images/3-4/banner-co-branded.png");
   background-position: center;
   background-size:contain;
   background-repeat: no-repeat;
