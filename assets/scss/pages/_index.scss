@@ -57,7 +57,12 @@ a{
 	display: none;
 }
 .banner {
+<<<<<<< HEAD
   background-image: url("../images/3-4/banner.png");
+=======
+	background-image: url('../images/3-4/banner.png');
+//   background-image: url("../images/3-4/banner.png");
+>>>>>>> c761f357766b926cc6cd64b55a4d6300ea789789
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
