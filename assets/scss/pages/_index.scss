@@ -56,13 +56,13 @@ a{
 }
 
 .banner {
-  background-image: url(../assets/images/3-4/banner-sm.png);
+  background-image: url("../images/3-4/banner.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
   line-height: 1.2;
-  padding: 300px 0px;
+  padding: 200px 0px;
   
 }
 .banner h2{
@@ -111,7 +111,7 @@ a{
 	padding: 8px;
 }
 .joint-name{
-  background-image: url(../assets/images/3-4/banner-co-branded.png);
+  background-image: url("/htmlweek4/assets/images/3-4/banner-co-branded.png");
   background-position: center;
   background-size:contain;
   background-repeat: no-repeat;
@@ -220,21 +220,10 @@ a{
 	.banner{
 		background-size: 100% 100%;
 	}
-}
-@media (max-width: 768px) {
-	 
-	.column-gap-12{
-        column-gap: 12px;
-    }
-	.img-50{
-		width: 50%;
+		.first-hide{
+		display: block;
 	}
-	.header{
-		padding-top:24px;
-		padding-bottom: 24px;
-	}
-	
-	.list a{
+		.list a{
 		color: #212529;
 		width: 100%;
 		display: block;
@@ -249,8 +238,18 @@ a{
 	.list .s-g{
 		background-color: #E8FEC5;
 	}
-	.first-hide{
-		display: block;
+}
+@media (max-width: 768px) {
+	 
+	.column-gap-12{
+        column-gap: 12px;
+    }
+	.img-50{
+		width: 50%;
+	}
+	.header{
+		padding-top:24px;
+		padding-bottom: 24px;
 	}
 	.main-text{
     margin-left:12px;

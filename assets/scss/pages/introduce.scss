@@ -1,0 +1,149 @@
+.banner {
+  background-image: url(../assets/images/img/hero.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 151px ;
+  text-align: center;
+  margin-bottom: 24px;
+  
+}
+.main-text h1{
+	font-size: 40px;
+}
+.main-text p{
+	font-size: 28px;
+}
+.declaration{
+	background-color: #F5FEE7;
+	text-align: center;
+	max-width: 856px;
+	margin: 0 auto;
+	padding: 48px 0px;
+	margin-top: 64px;
+}
+.declaration h2{
+	font-size: 20px;
+	font-weight: 700;
+	color: #57A203;
+	margin-bottom: 16px;
+}
+.declaration p{
+	padding-bottom: 4px;
+	font-weight: 400;
+}
+.hero{
+	max-width: 1076px;
+	margin: 0 auto;
+}
+.hero img{
+	display: block;
+	width: 100%;
+	margin-top: 64px;
+}
+.wrap{
+	max-width:856px;
+	margin: 0 auto;
+}
+.brand{
+	padding-bottom: 16px;
+	border-bottom:  1px solid  #DEE2E6;
+}
+.title{
+	font-size: 24px;
+	line-height: 1.2;
+	font-weight: 700;
+	margin: 24px 0px;
+	padding-top: 48px;
+}
+.brand h3{
+	font-size: 20px;
+	line-height: 1.2;
+	font-weight: 700;
+	margin: 24px 0px;
+	color: #57A203;
+}
+.brand p{
+	margin-bottom: 16px;
+}
+
+.history{
+	padding-bottom: 48px;
+	border-bottom: 1px solid #DEE2E6;
+	
+}
+.history li{
+	margin-top: 8px;
+	color: #212529;
+	list-style-type: disc;
+	list-style-position: inside;
+	text-indent: 8px;
+}
+.line{
+	padding-left: 12px;
+	margin-left: 12px;
+	border-left: 3px solid #DEE2E6;
+}
+.brandConcept{
+
+	padding-bottom: 48px;
+	border-bottom: 1px solid #DEE2E6;
+}
+.story{
+	padding-bottom: 48px;
+	border-bottom: 1px solid #DEE2E6;
+}
+.story li{
+	margin-top: 8px;
+}
+.story a{
+	color: #57A203;
+}
+.story svg{
+	padding-right: 8px;
+}
+.story a span{
+	border-bottom:1px solid #57A203;
+	padding-bottom:3px ;
+}
+.story a:hover{
+	color: #212529;
+}
+
+.brandConcept li{
+	margin-top: 8px;
+	color: #212529;
+	padding-left: 12px;
+	border-left: 3px solid #DEE2E6;
+}
+@media (max-width: 756px) {
+	.b-0-12{
+		padding: 0px  12px;
+	}
+	.header{
+		padding: 24px 12px;
+	}
+	.hide{
+		display: none;
+	}
+	.declaration{
+		text-align: left;
+		padding: 48px 16px;
+	}
+	.end{
+		flex-direction: column;
+	}
+	.end img{
+		margin-bottom: 24px;
+	}
+	.end-list{
+		flex-direction: column;
+		padding-left: 12px;
+	}
+	.end-list li{
+		margin-bottom: 24px;
+	}
+}
