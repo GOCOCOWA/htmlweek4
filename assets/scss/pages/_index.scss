@@ -216,6 +216,7 @@ a{
 	.hide{
 		display: none;
 	}
+	
 	.new-item li{
 		width: 48%;
 	}
@@ -235,7 +236,9 @@ a{
 		padding-top:24px;
 		padding-bottom: 24px;
 	}
-	
+	.f-d-c-768{
+		flex-direction: column;
+	}
 	.list a{
 		color: #212529;
 		width: 100%;
