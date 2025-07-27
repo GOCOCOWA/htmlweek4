@@ -47,6 +47,7 @@ a{
 .f-d-c{
 	flex-direction: column;
 }
+
 .m-l-32{
 	margin-left: 32px;
 }
@@ -116,7 +117,7 @@ a{
   background-position: center;
   background-size:contain;
   background-repeat: no-repeat;
-  color: white;
+  color:white;
   line-height: 1.2;
   padding: 200px 0px;
   text-align: center;
@@ -268,9 +269,6 @@ a{
 	.joint-name{
 		padding: 100px 0px;
 		margin-bottom: 48px;
-	}
-	.big-title{
-		flex-direction: column;
 	}
 	.sparkle{
 	width: 20%;

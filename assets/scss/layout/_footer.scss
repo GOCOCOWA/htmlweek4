@@ -47,104 +47,14 @@
 	
 }
 @media (max-width: 1296px){
-	.joint-name{
-     background-size:cover;
-    }
     .b-0-12{
 		padding: 0px  12px;
 	}
 	.hide{
 		display: none;
 	}
-	.new-item li{
-		width: 48%;
-	}
-	.banner{
-		background-size: 100% 100%;
-	}
 }
 @media (max-width: 768px) {
-	 
-	.column-gap-12{
-        column-gap: 12px;
-    }
-	.img-50{
-		width: 50%;
-	}
-	.header{
-		padding-top:24px;
-		padding-bottom: 24px;
-	}
-	
-	.list a{
-		color: #212529;
-		width: 100%;
-		display: block;
-		background-color: #F5FEE7;
-		padding: 16px 0px;
-	}
-	.list li{
-		width: 50%;
-		text-align: center;
-		font-weight: 500;
-	}
-	.list .s-g{
-		background-color: #E8FEC5;
-	}
-	.first-hide{
-		display: block;
-	}
-	.main-text{
-    margin-left:12px;
-    }
-	.hot-item{
-		margin-bottom: 64px;
-	}
-	.hot-item ul{
-		overflow-x: auto;
-	}
-	.hot-item li{
-		flex:  0 0 90%;
-	}
-	.joint-name{
-		padding: 100px 0px;
-		margin-bottom: 48px;
-	}
-	.big-title{
-		flex-direction: column;
-	}
-	.sparkle{
-	width: 20%;
-	right:0%;
-	bottom:0;
-    }
-    .star{
-	width:20%;
-	left: -10%;
-	top: -10%;
-    }
-	.series ul{
-		row-gap: 12px;
-	}
-	.series li{
-		width: 48.5%;
-	}
-	.series .row{
-		flex-wrap: wrap;
-	}
-	.dress-code img {
-	width: 100%;
-    min-width: auto;
-    }
-    .d-md-contents {
-      display: contents;
-    }
-    .column-md-gap-16 {
-    column-gap: 16px;
-    }
-    .overflow-md-auto {
-    overflow-x: auto;
-    }
 	.end{
 		flex-direction: column;
 	}
